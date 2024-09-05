@@ -16,14 +16,7 @@ import { Keypair } from "@solana/web3.js";
 import bs58 from "bs58";
 import { Base64 } from "js-base64";
 import fs from "fs";
-import { HBdr_Keypair } from "./config";
-
-const endpoint_main = "https://api.mainnet-beta.solana.com";
-
-// const endpoint_dev =
-//   "https://rpc-devnet.hellomoon.io/84c21674-67de-4832-9674-7f2375be7e95";
-
-const endpoint_dev = "https://api.devnet.solana.com";
+import { endpoint_dev, HBdr_Keypair } from "./config";
 
 const merkleTree = "88cWPo35aiqRvnVYa8QRaCY64T83AET13dBy7vVMV3ew";
 
